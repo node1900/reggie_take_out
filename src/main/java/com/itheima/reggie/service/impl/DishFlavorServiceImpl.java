@@ -6,6 +6,8 @@ import com.itheima.reggie.pojo.DishFlavor;
 import com.itheima.reggie.service.DishFlavorService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class DishFlavorServiceImpl extends ServiceImpl<DishFlavorMapper,DishFlavor> implements DishFlavorService {
     /**
