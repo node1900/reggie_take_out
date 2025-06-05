@@ -1,27 +1,18 @@
 package com.itheima.reggie.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.fasterxml.jackson.databind.util.BeanUtil;
 import com.itheima.reggie.common.CustomException;
 import com.itheima.reggie.dto.DishDto;
-import com.itheima.reggie.mapper.CategoryMapper;
 import com.itheima.reggie.mapper.DishMapper;
-import com.itheima.reggie.pojo.Category;
 import com.itheima.reggie.pojo.Dish;
 import com.itheima.reggie.pojo.DishFlavor;
-import com.itheima.reggie.pojo.Employee;
-import com.itheima.reggie.service.CategoryService;
 import com.itheima.reggie.service.DishFlavorService;
 import com.itheima.reggie.service.DishService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 

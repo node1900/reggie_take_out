@@ -6,20 +6,14 @@ import com.itheima.reggie.common.R;
 import com.itheima.reggie.dto.DishDto;
 import com.itheima.reggie.pojo.Category;
 import com.itheima.reggie.pojo.Dish;
-import com.itheima.reggie.pojo.DishFlavor;
 import com.itheima.reggie.service.CategoryService;
-import com.itheima.reggie.service.DishFlavorService;
 import com.itheima.reggie.service.DishService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 @Slf4j
