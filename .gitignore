@@ -1,0 +1,11 @@
+# 所有class,后缀的文件
+*.class
+# 所有jar后缀的文件
+*.jar
+*.iml
+*.war
+# .idea文件夹
+.idea
+# out文件夹
+out
+target
